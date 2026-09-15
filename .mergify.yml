@@ -2,9 +2,13 @@ merge_queue:
   mode: serial
 queue_rules:
   - name: default
-    queue_branch_prefix: vm3-old-
+    queue_branch_prefix: vm3-new-
     batch_size: 1
 pull_request_rules: []
+
+
+
+
 
 
 
